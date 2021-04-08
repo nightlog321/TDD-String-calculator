@@ -5,9 +5,7 @@ public class stringcalculator3 {
 		if(t.equals("")){
 			return 0;
 		}
-else if{
-return sti(t.split(",|\n"));
-}
+
 else if{
 String values=t.split(",|\n");
 int sum=0;
