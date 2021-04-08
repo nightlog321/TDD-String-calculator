@@ -19,11 +19,7 @@ return sum;
 
 private int sti(String num){
 int n=Integer.parseInt(num);
-if(n<0){
-	System.out.println("negatives not allowed”);
-}
-else{
 return n;
-}
+
 }
 }
