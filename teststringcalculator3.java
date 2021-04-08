@@ -1,4 +1,4 @@
-package check;
+ package check;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
