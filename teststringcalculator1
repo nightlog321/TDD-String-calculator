@@ -1,6 +1,6 @@
 package check;
 import org.junit.Test;
-public class teststringcalculator {
+public class teststringcalculator1 {
 
 	public static void main(String args[]) {
       org.junit.runner.JUnitCore.main("check.teststringcalculator");
