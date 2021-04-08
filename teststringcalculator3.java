@@ -5,7 +5,7 @@ import org.junit.rules.ExpectedException;
 public class teststringcalculator3 {
 
 	public static void main(String args[]) {
-      org.junit.runner.JUnitCore.main("check.teststringcalculator1");
+      org.junit.runner.JUnitCore.main("check.teststringcalculator3");
     }
 
 	@Test
@@ -24,7 +24,7 @@ public class teststringcalculator3 {
     }
   
     @Test
-    public void numbersNewlineDelimitedShouldBeSummed() {
+    public void Newline() {
         assertEquals(calculator.add("1\n2"), 3);
     }
 
