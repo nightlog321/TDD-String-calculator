@@ -29,9 +29,13 @@ public class teststringcalculator3 {
     }
 
      @Test
-    public void negativeInputReturnsException() {
+    public void negative() {
         thrown.expect(IllegalArgumentException.class);
         thrown.expectMessage("negatives not allowed");
         calculator.add("2,-2\n1");
+    }
+	@Test
+    public void greater() {
+        assertEquals(calculator.add("12,23212\n4,24"), 40);
     }
 }
