@@ -3,7 +3,7 @@ import org.junit.Test;
 public class teststringcalculator1 {
 
 	public static void main(String args[]) {
-      org.junit.runner.JUnitCore.main("check.teststringcalculator");
+      org.junit.runner.JUnitCore.main("check.teststringcalculator1");
     }
 
 	@Test
